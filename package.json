@@ -1,0 +1,27 @@
+{
+  "name": "eshopserver",
+  "version": "1.0.0",
+  "description": "simple ecommerce express server",
+  "main": "app.js",
+  "scripts": {
+    "script": "node app.js",
+    "test": "jest --config=jestconfig.json"
+  },
+  "author": "Odafe Idogho",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.6.0",
+    "express": "^4.19.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.0.0",
+    "mongoose": "^7.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.3.4"
+  }
+}

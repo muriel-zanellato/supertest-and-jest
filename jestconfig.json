@@ -1,0 +1,15 @@
+{
+   "collectCoverage": true,
+   "collectCoverageFrom": [
+      "**/*.{js,jsx}"
+   ],
+   "coverageThreshold":{
+      "global": {
+         "branches": 60,
+         "functions": 60
+       },
+       "./routes/productsApi.js" :{
+         "functions": 100
+       }   
+   }
+}
